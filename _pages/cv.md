@@ -9,6 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Please find my detailed CV [here]({{ base_path }}/files/Fritsch_CV.pdf).
+Please find my detailed CV [here]({{ base_path }}/files/Fritsch_CV.pdf?v={{ site.time | date: "%s" }}).
 
-<iframe src="{{ base_path }}/files/Fritsch_CV.pdf" title="CV of Nicholas Fritsch" style="width:100%;height:80vh;border:1px solid #ddd;border-radius:4px;"></iframe>
+<iframe src="{{ base_path }}/files/Fritsch_CV.pdf?v={{ site.time | date: "%s" }}" title="CV of Nicholas Fritsch" style="width:100%;height:80vh;border:1px solid #ddd;border-radius:4px;"></iframe>
